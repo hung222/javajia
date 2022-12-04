@@ -1,1 +1,1 @@
-web: gunicorn tntn.wsgi
+web: npm run start
