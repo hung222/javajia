@@ -1,1 +1,1 @@
-python -m {django}
+pip install --upgrade build setuptools && pip install 
