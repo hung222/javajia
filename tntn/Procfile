@@ -1,1 +1,2 @@
-web: npm run start
+web: echo start from procfile
+release: echo release
