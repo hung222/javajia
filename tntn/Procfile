@@ -1,2 +1,2 @@
-web: echo start from procfile
-release: echo release
+web: python src/main.py
+worker: echo "another process"
