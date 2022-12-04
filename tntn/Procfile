@@ -1,2 +1,2 @@
-web: python src/main.py
-worker: echo "another process"
+
+python manage.py migrate && gunicorn tntn.wsgi
