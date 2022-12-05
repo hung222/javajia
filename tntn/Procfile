@@ -1,2 +1,2 @@
 
-python manage.py migrate && gunicorn {tntn}.wsgi
+web: gunicorn tntn.wsgi
